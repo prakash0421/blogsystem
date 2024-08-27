@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+
+{% block title %}Patient Dashboard{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Patient Dashboard</h1>
+        <a href="{% url 'blog_list' %}" style="display: inline-block; padding: 10px 20px; margin: 5px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 5px;">View All Blog Posts</a>
+    </div>
+{% endblock %}
