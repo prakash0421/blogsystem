@@ -1,4 +1,4 @@
-pp
+
 from pathlib import Path
 from django.conf import settings
 import os
